@@ -158,6 +158,9 @@ a {
 }
 
 .title_decorated {
+}
+
+.title_decorated::after {
   content: "";
   display: block;
 
@@ -165,7 +168,7 @@ a {
   height: var(--size-base);
   border-radius: 2px;
   background: var(--brand-yellow);
-  margin: var(--size-base) auto 0;
+  margin: var(--size-base) auto;
 }
 
 .title_h1 {
